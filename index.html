@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodlelo - Order Fast</title>
+    <link rel="stylesheet" href="cs/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="foodlelo/pic.png" alt="Foodlelo Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Add Restaurant</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">👤 Login</a></li>
+                <li><a href="#">📝 Sign up</a></li>
+                <li class="cart-btn"><a href="#">🛒 Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <video class="bg-video" autoplay muted loop playsinline>
+            <source src="foodlelo/Food.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+            <img src="foodlelo/pic.png" alt="Foodlelo" class="hero-logo">
+            <p class="hero-title">Order lelo nahi to food milega</p>
+
+            <div class="hero-search">
+                <input type="text" placeholder="Search for restaurants or food">
+                <button>Search</button>
+            </div>
+        </div>
+
+        <div class="scroll-down" onclick="scrollToMainContent()">
+            <span>Scroll down</span>
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+        </div>
+    </main>
+
+    <section id="next-page" class="content-section">
+        <div class="container">
+            <h2>Popular Locations in India</h2>
+            <p>From swanky upscale restaurants to the cosiest hidden gems serving the most incredible food.</p>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Foodlelo. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
